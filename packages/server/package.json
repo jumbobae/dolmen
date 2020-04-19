@@ -1,0 +1,24 @@
+{
+	"name": "@dolmen/server",
+	"version": "1.0.0",
+	"description": "Backend NodeJS + KOA",
+	"main": "dist/index.js",
+	"typings": "dist/index.d.ts",
+	"author": "Junho Bae",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"watch": "tsc --watch",
+		"start": "nodemon main"
+	},
+	"devDependencies": {
+		"@types/koa": "^2.11.3",
+		"@types/node": "^13.13.0",
+		"nodemon": "^2.0.3",
+		"typescript": "^3.8.3"
+	},
+	"dependencies": {
+		"koa": "^2.11.0",
+		"tslib": "^1.11.1"
+	}
+}

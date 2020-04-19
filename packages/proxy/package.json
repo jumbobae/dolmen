@@ -1,0 +1,17 @@
+{
+	"name": "@dolmen/proxy",
+	"version": "1.0.0",
+	"description": "Database Proxy Layer",
+	"main": "dist/index.js",
+	"typings": "dist/index.d.ts",
+	"author": "Junho Bae",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"watch": "tsc --watch",
+		"start": "nodemon main"
+	},
+	"devDependencies": {
+		"typescript": "^3.8.3"
+	}
+}

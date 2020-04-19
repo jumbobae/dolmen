@@ -9,6 +9,9 @@
 # testing
 /coverage
 
+# transpiled files
+/packages/**/dist
+
 # production
 /build
 
