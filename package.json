@@ -1,13 +1,17 @@
 {
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
-  "scripts": {
-    "build": "lerna run build"
-  },
-  "devDependencies": {
-    "lerna": "^3.20.2"
-  },
-  "name": "dolmen"
+	"private": true,
+	"workspaces": [
+		"packages/*"
+	],
+	"scripts": {
+		"build": "lerna run build"
+	},
+	"devDependencies": {
+		"lerna": "^3.20.2"
+	},
+	"name": "dolmen",
+	"version": "1.0.0",
+	"repository": "https://github.com/jumbobae/dolmen.git",
+	"author": "jumbobae",
+	"license": "MIT"
 }
